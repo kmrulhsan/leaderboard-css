@@ -3,7 +3,9 @@
 body {
   font-family: "Poppins", sans-serif;
   background: #f3f1ff;
+  margin: 0;
 }
+
 main {
   display: flex;
   flex-direction: column;
@@ -21,6 +23,39 @@ hr {
   margin-bottom: 27px;
 }
 
+/* nav bar style */
+header {
+  width: 1440px;
+  height: 94px;
+  background-color: #562eff;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-right: 36px;
+}
+.fa-lightbulb {
+  font-size: 40px;
+}
+#nav-left {
+  padding: 20px;
+}
+#nav-left img {
+  width: 40.42px;
+  height: 51px;
+}
+#nav-right {
+  padding: 10px;
+}
+#nav-right img {
+  width: 51px;
+  height: 51px;
+  vertical-align: middle;
+}
 /* player section styling */
 .section-title {
   color: #562eff;
@@ -126,6 +161,7 @@ top blog styles
   .container {
     width: 100%;
   }
+
   .players,
   .courses,
   .blogs {
